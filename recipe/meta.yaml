@@ -1,5 +1,5 @@
 {% set name = "load-atoms" %}
-{% set version = "0.3.7" %}
+{% set version = "0.3.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/load_atoms-{{ version }}.tar.gz
-  sha256: f58f1f1a399a781b58383656e8f9337cd35fa12e0336e47621a75bfa2b562634
+  sha256: fd57790097443afce46d9cf4ec5570a330ab00abcf879eac236ca4bae22fddb1
 
 build:
   entry_points:
